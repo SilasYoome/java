@@ -2,7 +2,8 @@
 
 ## 練習兩種輸入的方式與一種輸出的方式
 
-### Scanner
+### 輸入
+#### Scanner
 載入類別:
 ```import java.util.Scanner```
 
@@ -12,7 +13,7 @@
 利用nextLine來取得輸入的字串，並放入str1中:
 ```str1 = keyboardInput.nextLine();```
 
-### Console
+#### Console
 載入類別:
 ```import java.io.Console;```
 
@@ -26,3 +27,7 @@ Console有特別兩種輸入方式，一般的讀取readLine以及可適用於�
 
 密碼輸入放入char[] PW中:
 ```PW = console.readPassword("請輸入密碼");```
+
+### 輸出
+不換行:```System.out.print();```
+換行:```System.out.println();```
