@@ -11,7 +11,7 @@ public class operators{
         x = 20;
         y = 7;
 
-        System.out.println("算術運算子")
+        System.out.println("算術運算子");
         System.out.print("當x=" + x + " ");
         System.out.println("y=" + y +"時");
         System.out.println("x + y = " + (x+y));
@@ -25,6 +25,6 @@ public class operators{
         answer = b*b-4*a*c;
         System.out.println("b^2-4ac =" + answer);
 
-        
+
     }
 }
