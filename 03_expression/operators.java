@@ -11,17 +11,17 @@ public class operators{
         x = 20;
         y = 7;
 
-        System.out.println("ºâ³N¹Bºâ¤l")
-        System.out.print("·íx=" + x + " ");
-        System.out.println("y=" + y +"®É");
+        System.out.println("ç®—è¡“é‹ç®—å­")
+        System.out.print("ç•¶x=" + x + " ");
+        System.out.println("y=" + y +"æ™‚");
         System.out.println("x + y = " + (x+y));
         System.out.println("x - y = " + (x-y));
         System.out.println("x * y = " + (x*y));
         System.out.println("x / y = " + (x/y));
         System.out.println("-------------------------");
-        System.out.print("·ía =" + a + " ");
+        System.out.print("ç•¶a =" + a + " ");
         System.out.print("b =" + b + " ");
-        System.out.println("c" + c + "®É");
+        System.out.println("c" + c + "æ™‚");
         answer = b*b-4*a*c;
         System.out.println("b^2-4ac =" + answer);
 

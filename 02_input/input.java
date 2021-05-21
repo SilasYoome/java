@@ -1,34 +1,34 @@
 package java1.input;
 import java.lang.*;
-import java.util.Scanner;// ¸ü¤JÃş§O
-import java.io.Console; //  ¥t¥~¤@­Ó¿é¤J¥ÎªºÃş§O
+import java.util.Scanner;// è¼‰å…¥é¡åˆ¥
+import java.io.Console; //  å¦å¤–ä¸€å€‹è¼¸å…¥ç”¨çš„é¡åˆ¥
 
 public class input{
     public static void main(String args[]){
-        Scanner KeyboardInput = new Scanner(System.in);// «Å§iScannerª«¥ó©R¦W¬°KeyboardInput
+        Scanner KeyboardInput = new Scanner(System.in);// å®£å‘ŠScannerç‰©ä»¶å‘½åç‚ºKeyboardInput
         String str1,str2;
 
-        System.out.println("¨Ï¥ÎScannerªº¤è¦¡¿é¤J");
-        System.out.print("½Ğ¿é¤J²Ä¤@­Ó¦r¦ê:");
-        str1 = KeyboardInput.nextLine();            //  §Q¥ÎnextLine¨ú±oÁä½L¿é¤Jªº²Ä¤@¦æ¦r
-        System.out.print("½Ğ¿é¤J²Ä¤G­Ó¦r¦ê:");
-        str2 = KeyboardInput.nextLine();            //  §Q¥ÎnextLine¨ú±oÁä½L¿é¤Jªº²Ä¤G¦æ¦r
+        System.out.println("ä½¿ç”¨Scannerçš„æ–¹å¼è¼¸å…¥");
+        System.out.print("è«‹è¼¸å…¥ç¬¬ä¸€å€‹å­—ä¸²:");
+        str1 = KeyboardInput.nextLine();            //  åˆ©ç”¨nextLineå–å¾—éµç›¤è¼¸å…¥çš„ç¬¬ä¸€è¡Œå­—
+        System.out.print("è«‹è¼¸å…¥ç¬¬äºŒå€‹å­—ä¸²:");
+        str2 = KeyboardInput.nextLine();            //  åˆ©ç”¨nextLineå–å¾—éµç›¤è¼¸å…¥çš„ç¬¬äºŒè¡Œå­—
 
-        System.out.println("¿é¤Jªº¼Æ­È¦p¤U:");
+        System.out.println("è¼¸å…¥çš„æ•¸å€¼å¦‚ä¸‹:");
         System.out.println(str1);
         System.out.println(str2);
 
-        System.out.println("¨Ï¥ÎConsoleªº¤è¦¡¿é¤J");
-        System.out.print("½Ğ¿é¤J±b¸¹:");
+        System.out.println("ä½¿ç”¨Consoleçš„æ–¹å¼è¼¸å…¥");
+        System.out.print("è«‹è¼¸å…¥å¸³è™Ÿ:");
         Console console = System.console();
         String cstr1;
         char[] PW;
         cstr1 = console.readLine();
-        PW = console.readPassword("½Ğ¿é¤J±K½X");
+        PW = console.readPassword("è«‹è¼¸å…¥å¯†ç¢¼");
 
-        System.out.print("±b¸¹: ");
+        System.out.print("å¸³è™Ÿ: ");
         System.out.println(cstr1);
-        System.out.print("±K½X: ");
+        System.out.print("å¯†ç¢¼: ");
         System.out.println(PW);
 
 
