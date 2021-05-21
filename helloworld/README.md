@@ -9,13 +9,13 @@
 
 ### 無package的情況下的指令
 
-2. 編譯 javac Test.java
-3. 執行 java Test
+2. 編譯 ```javac Test.java```
+3. 執行 ```java Test```
 
 ### 有package的情況下的指令
 
-2. 編譯 javac -d . Test.java
-2. 執行 java java1.helloworld.Test
+2. 編譯 ```javac -d . Test.java```
+2. 執行 ```java java1.helloworld.Test```
 
 
 ## 文件儲存編碼問題
@@ -28,13 +28,17 @@ vscode預設文件儲存編碼型態為UTF-8，此型態會造成中文成為亂
 
 ## JAVA格式
 主類別
+```
 public class Test{
    public static void main(String[] args){
        System.out.println("嗨 java");
    }
 }
+```
 
 一般類別
+```
 class Myclass{
 
 }
+```
