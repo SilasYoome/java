@@ -16,3 +16,56 @@
 | boolean      | false     |
 | float      | 0.0f     |
 | double      | 0.0d     |
+
+  
+
+## 邏輯運算子的計算方程式
+| 邏輯運算子  | 程式寫法 |
+| ------------- |:-------------:|
+| NOT A      | !A     |
+| A AND B     | A && B     |
+| A OR B      | A || B     |
+| A NAND B      | !(A && B)     |
+| A NOR B      | !(A || B)     |
+
+  
+
+## 邏輯運算子的計算方程式
+| 邏輯運算子  | 程式寫法 |
+| ------------- |:-------------:|
+| NOT A      | !A     |
+| A AND B     | A && B     |
+| A OR B      | A || B     |
+| A NAND B      | !(A && B)     |
+| A NOR B      | !(A || B)     |
+
+  
+
+## 資料型態的轉換
+1. boolean型態不轉換
+2. char型態不轉換
+3. 若運算元中包含short與int兩種型態，全部轉換成int型態
+4. 若運算元中包含float浮點數與整數型態，全部轉換成float型態
+5. 若運算元中包含double浮點數，則全部轉換成double型態
+6. 占用較少記憶體者會轉換成占用記憶體較大的型態
+
+  
+
+## 原始資料型態對應之內建類別
+| 原始資料型態  | 對應的內建類別 |
+| ------------- |:-------------:|
+| byte      | Byte     |
+| short     | Short     |
+| int      | Integer     |
+| long      | Long     |
+| char      | Character     |
+| boolean      | Boolean     |
+| float      | Float     |
+| double      | Double     |
+
+  
+
+## var宣告變數
+可用var宣告變數，而非使用指定的一種固定的資料型態  
+var變數在宣告後要立即給予初值，之後編譯器就會依照給予的初值，判別這變數是屬於何種變數型態  
+var並非是動態型態程式語言  

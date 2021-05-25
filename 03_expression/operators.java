@@ -5,7 +5,7 @@ import java.lang.*;
 public class operators{
     public static void main(String args[]){
         float answer;
-        float a=2.1f,b=3.5f,c=4.0f;
+        float a=2.1f,b=3.5f,c=4.0f;             // float常數，要在尾部加上f
 
         int x,y;
         x = 20;
@@ -29,7 +29,7 @@ public class operators{
         System.out.println("比較運算子");
 
         int x2 = 10,y2 = 20;
-        boolean a2 =true, b2=false;
+        boolean a2=true, b2=false;
 
         System.out.print("x=" + x2);
         System.out.println(" y=" + y2);
@@ -51,5 +51,22 @@ public class operators{
         System.out.println("a nand b     ==> " + !(a2 && b2));
         System.out.println("a nor b     ==> " + !(a2 || b2));
         System.out.println("a and (x<y)     ==> " + (a2 && (x2<y2)));
+
+        short x3=100,y3=50,p3=3;
+        int xx = 0;
+        System.out.println("=========================");
+        System.out.println("位元運算子");
+        System.out.println("p = 3");
+        System.out.println("x = 01100100");
+        System.out.println("y = 00110010");
+        System.out.println("-------------------------");
+        System.out.println("not xx  ==> " + ~xx);
+        System.out.println("a and y ==> " + (x3 & y3));
+        System.out.println("a or y ==> " + (x3 | y3));
+        System.out.println("a xor y ==> " + (x3 ^ y3));
+        System.out.println("x >>> p ==> " + (x3 >>> p3));
+        System.out.println("a <<< y ==> " + (x3 << p3));
+
+        
     }
 }
